@@ -1,18 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import axios from 'axios'
 import React from 'react'
-import { useEffect } from 'react'
-import {BsDownload} from 'react-icons/bs'
-import Link from 'next/link'
 import Header from '../components/Header'
 
 
 export default function Home() {
-
-
   return (
     <>
       <Head>
