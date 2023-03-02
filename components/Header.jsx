@@ -42,7 +42,7 @@ const Header = () => {
         <div className='container-fluid'>
            <div className='row '>
            <div className='col-3 col-md-4 d-flex align-items-center '>
-          <h1   className=' hoverlink ' style={{ cursor:"pointer"}}> <RiPixelfedLine/>Pixels</h1>
+          <h1   className=' hoverlink d-flex align-items-center' style={{ cursor:"pointer"}}> <span><RiPixelfedLine/></span>Pixels</h1>
 
            </div>
 
@@ -57,13 +57,13 @@ const Header = () => {
         
         <div className='container'>
             <div className='row d-flex justify-content-center align-items-center'>
-              <div className='col-6'>
+              <div className='col-md-6 col-12'>
               <h3 className='p-5 text-light fs-1 mt-5' >The best free stock photos, royalty free images & videos shared by creators.</h3>
               </div>
             </div>
             <div className='row d-flex justify-content-center align-items-center'>
-                <div className='col-8 d-flex justify-content-center align-items-center py-5'>
-                <input className='w-50 p-2 ' style={{borderRadius:10,color:"white", border:"solid white 2px", background:"#d6cccc7f"}} placeholder='Search for free photos' onChange={handleChange} type="text" />
+                <div className='col-md-8 col-12 d-flex justify-content-center align-items-center py-5'>
+                <input className='w-50 p-2 ' style={{borderRadius:10,color:"white", border:"solid white 2px"}} placeholder='Search for free photos' onChange={handleChange} type="text" />
     <button className='p-2 btn btn-success mx-1' style={{borderRadius:10}} onClick={handleSubmit}>submit</button>
                 </div>
             </div>

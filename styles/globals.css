@@ -150,8 +150,13 @@ a {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  filter: brightness(70%);
-  background-image: url('https://images.pexels.com/photos/14225357/pexels-photo-14225357.jpeg?auto=compress&bri=10&cs=tinysrgb&fit=crop&h=500&w=1000');
+  background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url('https://images.pexels.com/photos/15378914/pexels-photo-15378914.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=1500');
+
   -webkit-mask-image: linear-gradient(black, rgb(255,255,255,10));
   mask-image: linear-gradient(black,  rgb(255,255,255,10));
 }
