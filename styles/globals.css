@@ -151,7 +151,7 @@ a {
   background-attachment: scroll;
   background-size: cover;
   filter: brightness(70%);
-  background-image: url('https://images.pexels.com/photos/15272406/pexels-photo-15272406.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=1000');
+  background-image: url('https://images.pexels.com/photos/14225357/pexels-photo-14225357.jpeg?auto=compress&bri=10&cs=tinysrgb&fit=crop&h=500&w=1000');
   -webkit-mask-image: linear-gradient(black, rgb(255,255,255,10));
   mask-image: linear-gradient(black,  rgb(255,255,255,10));
 }
