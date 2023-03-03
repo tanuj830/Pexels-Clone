@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Home.module.css'
 import Link from 'next/link'
 import {RiPixelfedLine} from 'react-icons/ri'
-import {BsDownload} from 'react-icons/bs'
+import {MdOpenInNew} from 'react-icons/md'
 const axios = require("axios");
 import {useEffect} from 'react'
 
@@ -39,10 +39,10 @@ const Header = () => {
 
   return (<>
     <div className='container-fluid-header py-2'>
-        <div className='container-fluid'>
+        <div className='container'>
            <div className='row '>
            <div className='col-3 col-md-4 d-flex align-items-center '>
-          <h1   className=' hoverlink d-flex align-items-center' style={{ cursor:"pointer"}}> <span><RiPixelfedLine/></span>Pixels</h1>
+          <h1   className=' hoverlink d-flex align-items-center fs-3' style={{ cursor:"pointer"}}> <span><RiPixelfedLine/></span>Pixels</h1>
 
            </div>
 
@@ -63,7 +63,7 @@ const Header = () => {
             </div>
             <div className='row d-flex justify-content-center align-items-center'>
                 <div className='col-md-8 col-12 d-flex justify-content-center align-items-center py-5'>
-                <input className='w-50 p-2 ' style={{borderRadius:10,color:"white", border:"solid white 2px"}} placeholder='Search for free photos' onChange={handleChange} type="text" />
+                <input className='w-50 p-2 ' style={{borderRadius:10, color:"grey", border:"solid white 2px"}} placeholder='Search for free photos' onChange={handleChange} type="text" />
     <button className='p-2 btn btn-success mx-1' style={{borderRadius:10}} onClick={handleSubmit}>submit</button>
                 </div>
             </div>
@@ -83,7 +83,7 @@ const Header = () => {
     <img className='img-fluid original_img' src={con.src.original} alt="" />
     <div className='author_name d-flex justify-content-between'>
     <h1 className='lead '>{con.photographer}</h1>
-    <a href={con.src.original}><button className='downloadBtn' ><BsDownload /></button></a>
+    <a href={con.src.original}><button className='downloadBtn' ><MdOpenInNew /></button></a>
     </div>
     </div>
     </div>
@@ -105,7 +105,7 @@ const Header = () => {
     <img className='img-fluid original_img' src={con.src.original} alt="" />
     <div className='author_name d-flex justify-content-between'>
     <h1 className='lead '>{con.photographer}</h1>
-    <a href={con.src.original}><button className='downloadBtn' ><BsDownload /></button></a>
+    <a href={con.src.original}><button className='downloadBtn' ><MdOpenInNew /></button></a>
     </div>
     </div>
     </div>

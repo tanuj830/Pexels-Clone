@@ -105,6 +105,9 @@ a {
     color-scheme: dark;
   }
 } */
+body{
+  font-family: 'Shantell Sans', cursive;
+}
 .box{
   position: relative;
 }
