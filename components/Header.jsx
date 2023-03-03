@@ -58,13 +58,13 @@ const Header = () => {
         <div className='container'>
             <div className='row d-flex justify-content-center align-items-center'>
               <div className='col-md-6 col-12'>
-              <h3 className='p-5 text-light fs-1 mt-5' >The best free stock photos, royalty free images & videos shared by creators.</h3>
+              <h3 className='p-4 text-light fs-1 mt-5' >The best free stock photos, royalty free images & videos shared by creators.</h3>
               </div>
             </div>
             <div className='row d-flex justify-content-center align-items-center'>
                 <div className='col-md-8 col-12 d-flex justify-content-center align-items-center py-5'>
-                <input className='w-50 p-2 ' style={{borderRadius:10, color:"grey", border:"solid white 2px"}} placeholder='Search for free photos' onChange={handleChange} type="text" />
-    <button className='p-2 btn btn-success mx-1' style={{borderRadius:10}} onClick={handleSubmit}>submit</button>
+                <input className='w-75 p-2 ' style={{borderRadius:10, color:"grey", border:"solid white 2px"}} placeholder='Search for free photos' onChange={handleChange} type="text" />
+    <button className='py-2 btn btn-success mx-2' style={{borderRadius:10}} onClick={handleSubmit}>Submit</button>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ const Header = () => {
     </div>
     </div>
   )): null
-}
+}  
 </div>
 </div>
 
